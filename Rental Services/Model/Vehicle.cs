@@ -20,6 +20,7 @@ namespace Rental_Services.Model
     {
         public int VehicleID { get; set; }
         public string VehicleName { get; set; }
+        public string VehicleNumber { get; set; }
         public string VehicleDescription { get; set; }
         public int Price { get; set; }
         public String ImageUrl { get; set; }

@@ -91,7 +91,7 @@ namespace Rental_Services.DataAccessLayer
                 data.Result.Price = request.Price;
                 data.Result.VehicleDescription = request.VehicleDescription;
                 data.Result.VehicleName = request.VehicleName;
-                data.Result.VehicleNumber = request.VehicleName;
+                data.Result.VehicleNumber = request.VehicleNumber;
 
                 await _applicationDbContext.SaveChangesAsync();
 

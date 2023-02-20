@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\VishalWaman\\source\\repos\\Practice Project\\Vehicle-Rental-System-BE\\Rental Services\\Rental Services.csproj": {}
+    "D:\\V Technology\\CDAC\\Vehicle Rental System\\Rental Services\\Rental Services\\Rental Services.csproj": {}
   },
   "projects": {
-    "C:\\Users\\VishalWaman\\source\\repos\\Practice Project\\Vehicle-Rental-System-BE\\Rental Services\\Rental Services.csproj": {
+    "D:\\V Technology\\CDAC\\Vehicle Rental System\\Rental Services\\Rental Services\\Rental Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VishalWaman\\source\\repos\\Practice Project\\Vehicle-Rental-System-BE\\Rental Services\\Rental Services.csproj",
+        "projectUniqueName": "D:\\V Technology\\CDAC\\Vehicle Rental System\\Rental Services\\Rental Services\\Rental Services.csproj",
         "projectName": "Rental Services",
-        "projectPath": "C:\\Users\\VishalWaman\\source\\repos\\Practice Project\\Vehicle-Rental-System-BE\\Rental Services\\Rental Services.csproj",
-        "packagesPath": "C:\\Users\\VishalWaman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VishalWaman\\source\\repos\\Practice Project\\Vehicle-Rental-System-BE\\Rental Services\\obj\\",
+        "projectPath": "D:\\V Technology\\CDAC\\Vehicle Rental System\\Rental Services\\Rental Services\\Rental Services.csproj",
+        "packagesPath": "C:\\Users\\visha\\.nuget\\packages\\",
+        "outputPath": "D:\\V Technology\\CDAC\\Vehicle Rental System\\Rental Services\\Rental Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\VishalWaman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\visha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -83,11 +83,16 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -96,7 +101,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
         }
       }
     }
